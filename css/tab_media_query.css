@@ -1,0 +1,203 @@
+@media only screen and (max-width: 1075px)
+{
+    body
+    {
+        width: 100%;
+    }
+    .header
+    {
+        height: 70px;
+        width: 100%;
+    }
+    .nav
+    {
+        height: 70px;
+        width: 100%;
+    }
+    
+    .navlink_bar .list
+    {
+        height: 200px;
+        width: 50%;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        background-color: black;
+        position: absolute;
+        top: 70px;
+        right: -50%;
+        padding: 20px;
+        padding-right: 100px;
+        transition: 0.3s;
+        display: none;
+    }
+    .navlink_bar .list.active
+    {
+        display: flex;
+        right: 0px;        
+    }
+    .navlink_bar .list a
+    {
+        color: white;
+    }
+    .navlink_bar .list a:hover
+    {
+        color: black;
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .toogle
+    {
+        display: block;
+        padding: 5px;
+        font-size: 20px;
+        border: 1px solid orangered;
+    }
+    /* nav end */
+    .main
+    {
+        height: 400px;
+        width: 100%;
+        background-size: 100% 400px;
+        /* overflow-x: hidden; */
+    }
+    /* section end */
+   /* sec start */
+   /* #ab
+   {
+      position: relative;
+      top: 30px;
+      right: 120px;
+   }
+   #sk
+   {   
+          position: relative;
+          top: 30px;
+          right: 100px;
+   }
+   #con
+   {
+      position: relative;
+      top: 30px;
+      right: 140px;
+   } */
+
+
+   .about
+    {
+        height: 400px;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: row;
+        padding: 30px;
+    }
+    .profile
+    {
+        height: 300px;
+        width: 50%;
+    }
+   #pro_img
+   {
+     height: 300px;
+     width: 100%;
+   }
+   .aboutus
+   {
+    height: 300px;
+    width: 50%;
+    padding: 0;
+      padding-left: 30px;
+      padding-top: 30px;
+   }
+    #center
+    {
+        margin-left: 100px;
+    }
+    /* sec end */
+    /* skill */
+
+    .flex1
+    {
+        position: relative;
+        left: 20px;
+        height: 200px;
+        width: 50%;
+    }
+    .flex
+    {
+        position: relative;
+        left: 20px;
+        height: 200px;
+        width: 50%;
+    }
+    .skills
+    {
+        padding-right: 300px;
+    }
+
+    .same
+{
+    height: 15px;
+    width: 80%;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 10px;
+}
+.same1
+{
+    height: 15px;
+    width: 70%;
+    border: 1px solid teal;
+    background-color: teal;
+    border-radius: 10px;
+}
+.same2
+{
+    height: 15px;
+    width: 50%;
+    border: 1px solid yellow;
+    background-color: yellow;
+    border-radius: 10px;
+}
+.same3
+{
+    height: 15px;
+    width: 70%;
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 10px;
+}
+.same4
+{
+    height: 15px;
+    width: 80%;
+    border: 1px solid grey;
+    background-color: grey;
+    border-radius: 10px;
+}
+    /* skill end */
+    /* contact */
+   .contact_sec
+   {
+    height: 450px;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 60px;
+    padding-top: 40px;
+   }
+    .form
+    {
+       margin: auto;
+    }
+
+    /* contact end */
+    /* footer */
+    .footer
+    {
+        padding-left: 90px;
+    }
+    /* footer end */
+}
